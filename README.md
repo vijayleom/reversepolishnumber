@@ -26,3 +26,13 @@ To evaluate the below expression:
 * /: Pop (4) and (12). Calculate (12/4=3). Push (3) onto the stack. Stack: ([3])
 
 ## Final Result is 3
+
+For project compilation:
+```bash
+mvn clean compile
+```
+
+For execution:
+```bash
+mvn exec:java -Dexec.mainClass="com.sample.snippets.App"
+```
